@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Comment App</title>
+    </head>
+    <body>
+<div class="container">
+    <div class="signin-box">
+        <h1>Sign In</h1>
+        <h4>Don't have an account?<span class="click" onclick="signup()">Sign Up</span></h4>
+        <form>
+            <label>Email</label>
+            <input class="input" type="email" pattern=".+@gmail.com" placeholder=" Email Id">
+            <label>Password</label>
+            <input class="input" type="text" placeholder=" Password">
+            <p class="click" onclick="forgotPassword()">Forgot your Password?</p>
+        </form>
+        <button class="click" type="button" onclick="signInClick()"><img src="33-336425_facebook-lock-icon-png-download-facebook-lock-icon.png" width="15px" height="20px"/>Sign In</button>
+    </div>
+    <div class="signup-box">
+        <h1>Sign Up</h1>
+        <h4>Already have an account?<span onclick="signIn()" class="signin-text click">Sign In</span></h4>
+        <form>
+            <label>Email</label>
+            <input class="input" type="email" pattern=".+@gmail.com" placeholder=" Email Id">
+            <label>Password</label>
+            <input class="input" type="text" placeholder="Password">
+            <label>Secret</label>
+            <input class="input" type="text" placeholder="Secret">
+        </form>
+        <br><br>
+        <button class="click" type="button" onclick="signUpClick()"><img src="33-336425_facebook-lock-icon-png-download-facebook-lock-icon.png" width="15px" height="20px"/>Sign Up</button>
+        <p class="terms">By clicking the "Sign Up" button, you are creating an account, and you agree to the Terms of Use.</p>
+    </div>
+    <div class="forgotpassword-box">
+        <h1>Forgot Password</h1>
+        <form>
+            <label>Email</label>
+            <input class="input" type="email" pattern=".+@gmail.com" placeholder=" Email Id">
+            <label>Secret</label>
+            <input class="input" type="text" placeholder="Secret">
+        </form>
+        <br><br>
+        <button class="click" type="button" onclick="forgotClick()"><img src="33-336425_facebook-lock-icon-png-download-facebook-lock-icon.png" width="15px" height="20px"/>Change</button>
+    </div>
+    <div class="passwordchange-box">
+        <h1>Change Password</h1>
+    <form>
+        <label>New Password</label>
+        <input class="input" type="text" placeholder="New password">
+    </form>
+    <br><br>
+    <button class="click" type="button" onclick="signIn()"><img src="33-336425_facebook-lock-icon-png-download-facebook-lock-icon.png" width="15px" height="20px"/>Sign In</button>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>

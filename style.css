@@ -1,0 +1,139 @@
+body{
+    background-color: white;
+    font-family:sans-serif;
+}
+.signin-box{
+    width: 360px;
+    height: 720px;
+    margin: auto;
+    margin-top: 30px;
+}
+.click{
+    cursor: pointer;
+}
+.signup-box{
+    width: 360px;
+    height: 720px;
+    margin: auto;
+    margin-top: 30px;
+}
+.passwordchange-box{
+    width: 360px;
+    height: 720px;
+    margin: auto;
+    margin-top: 30px;
+}
+.forgotpassword-box{
+    width: 360px;
+    height: 720px;
+    margin: auto;
+    margin-top: 30px;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+h4{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size:15px;
+    margin-bottom: 10px
+} 
+form input{
+    width: 100%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    padding-right: 0px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+span{
+    color: #2471a3;
+}
+img{
+    padding-right: 140px;
+}
+p{
+    color: #2471a3;
+    width: 360px;
+    font-size: 15px;
+    text-align:end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+button[type="button"]{
+    width: 100%;
+    display: flex;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: #2471a3;
+    border: 1px solid #2471a3;
+    color: white;
+    border-radius: 4px;
+}
+.terms{
+    color: black;
+    text-align: center;
+}
+.comment-box{
+    width: 800px;
+    margin: auto;
+    height: 720px;
+}
+.flex-down{
+    display: flex;
+    flex-direction: column;
+}
+.type-comment {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.submit-btn{
+    margin-right: 65px;
+    margin-top: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    background-color: white;
+}
+textarea{
+    width: 500px;
+    height: 150px;
+}
+.show-comment{
+    display: flex;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 20px;
+    height: 300px;
+}
+/* h2{
+    margin-top: 0px;
+    padding-top: 0px;
+} */
+.filter-btn{
+    margin-right: 0px;
+    margin-left: 280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    background-color: white;
+}
+.container{
+    display: flex;
+}
